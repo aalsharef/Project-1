@@ -1,0 +1,42 @@
+---
+title: "Analysis"
+author: "Abdullah F Alsharef"
+date: today
+format:
+  html:
+    toc: true              # table of contents
+    toc-depth: 4           # how deep the TOC goes
+    number-sections: true  # numbered headings
+    theme: cosmo           # bootstrap theme (cosmo, flatly, darkly, etc.)
+    code-fold: true        # collapsible code blocks
+    code-summary: "Show code"
+    df-print: paged         # nice scrollable tables
+    self-contained: true    # single HTML file output
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+```
+
+## Data
+
+```{r}
+cars
+```
+
+## Analysis
+
+```{r}
+
+```
+
+## Visualization
+
+```{r}
+plot(cars)
+
+
+
+```

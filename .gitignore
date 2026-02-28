@@ -1,0 +1,22 @@
+# R files
+.Rhistory
+.Rdata
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+
+# Quarto / R Markdown output
+*_files/
+*_cache/
+*.html
+*.pdf
+*.docx
+
+# Data (uncomment if you don't want to track data files)
+# *.csv
+# *.xlsx
+# data/
+
+# OS files
+.DS_Store
+Thumbs.db
